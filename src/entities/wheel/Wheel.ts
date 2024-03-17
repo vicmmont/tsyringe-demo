@@ -1,5 +1,5 @@
 export interface Wheel {
-    move: (energy: string) => string;
+  move: (energy: string) => string;
 
-    stop: () => string;
+  stop: () => string;
 }

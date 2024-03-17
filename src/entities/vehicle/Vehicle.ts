@@ -1,9 +1,9 @@
 export interface Vehicle {
-    start: () => string;
+  start: () => string;
 
-    drive: () => string;   
+  drive: () => string;
 
-    stop: () => string;
+  stop: () => string;
 
-    shutDown: () => string;
-};
+  shutDown: () => string;
+}

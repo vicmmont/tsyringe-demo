@@ -1,16 +1,16 @@
-import { injectable } from 'tsyringe';
+import { injectable } from "tsyringe";
 
-import { Wheel } from './Wheel';
+import { Wheel } from "./Wheel";
 
 @injectable()
 export class AllSeasonTire implements Wheel {
-    constructor() {}
+  constructor() {}
 
-    public move: (energy: string) => string = (energy) => {
-        return `${energy} and moving the all season tire!`;
-    }
+  public move: (energy: string) => string = energy => {
+    return `${energy} and moving the all season tire!`;
+  };
 
-    public stop: () => string = () => {
-        return "Stopping the all season tire!";
-    }
+  public stop: () => string = () => {
+    return "Stopping the all season tire!";
+  };
 }
