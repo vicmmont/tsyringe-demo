@@ -2,7 +2,7 @@ import "reflect-metadata";
 import { mock } from "jest-mock-extended";
 
 import { FourCylinderEngine } from "./FourCylinderEngine";
-import { Fuel } from "../fuel/Fuel";
+import { Fuel } from "../fuel";
 
 describe("four cylinder engine tests", () => {
   afterEach(() => {
