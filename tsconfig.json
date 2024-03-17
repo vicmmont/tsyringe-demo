@@ -14,13 +14,10 @@
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node16",
     "outDir": "dist",
-  // for tsyringe
-  "experimentalDecorators": true,
-  "emitDecoratorMetadata": true
-   
+    // for tsyringe
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
-  "include": [
-    "./src/**/*.ts"
- ],
- "exclude": ["node_modules"]
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules"]
 }

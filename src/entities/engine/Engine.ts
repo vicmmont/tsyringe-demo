@@ -1,7 +1,7 @@
 export interface Engine {
-    start: () => string;
+  start: () => string;
 
-    run: () => string;
+  run: () => string;
 
-    shutDown: () => string;
+  shutDown: () => string;
 }

@@ -1,3 +1,3 @@
 export interface Fuel {
-    combust: () => string;
+  combust: () => string;
 }
