@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts ./src",
+    "lint": "eslint ./src --ignore-path .eslintignore --ext .js,.ts ",
     "test": "jest",
     "build": "tsc",
     "start": "tsc && node ./dist/app.js"
