@@ -12,8 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "reflect-metadata": "0.2.1",
-    "tsyringe": "4.8.0"
+    "reflect-metadata": "0.2.1"
   },
   "devDependencies": {
     "@jest/globals": "29.7.0",
