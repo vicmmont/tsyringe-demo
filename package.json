@@ -1,5 +1,5 @@
 {
-  "name": "inversify-demo",
+  "name": "tsyringe-demo",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -12,8 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inversify": "6.0.2",
-    "reflect-metadata": "0.2.1"
+    "reflect-metadata": "0.2.1",
+    "tsyringe": "4.8.0"
   },
   "devDependencies": {
     "@jest/globals": "29.7.0",
